@@ -148,7 +148,7 @@
 .hero-figure-box-05 {
 	left: 17.4%;
 	top: 13.3%;
-	width: 64%;
+	//width: 64%;
 	height: 73.7%;
 	transform: perspective(500px) rotateY(-15deg) rotateX(8deg) rotateZ(-1deg);
 }
@@ -165,15 +165,19 @@
 	left: 1.9%;
 	top: 42.4%;
 	width: 12.12%;
-	height: 16.16%;
+	//height: 16.16%;
+	width: 64;
+	height: 64;
 	transform: rotateZ(20deg);
 }
 
 .hero-figure-box-08 {
 	left: 27.1%;
 	top: 81.6%;
-	width: 19.51%;
-	height: 26.01%;
+	//width: 19.51%;
+	//height: 26.01%;
+	width: 48;
+	height: 48;
 	background: color(primary, 1);
 	transform: rotateZ(-22deg);
 
@@ -186,8 +190,10 @@
 .hero-figure-box-09 {
 	left: 42.6%;
 	top: -17.9%;
-	width: 6.63%;
-	height: 8.83%;
+	//width: 6.63%;
+	//height: 8.83%;
+	width: 16;
+	height: 16;
 	background: #00BFFB;
 	transform: rotateZ(-52deg);
 
