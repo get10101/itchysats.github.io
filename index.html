@@ -5,6 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>itchysats</title>
+
+    <!--  Header Navbar based on bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,600" rel="stylesheet">
 
     <link rel="icon" type="image/jpg" href="/dist/images/logo.svg"/>
@@ -20,23 +27,41 @@
       gtag('config', 'G-MEZRMTSN57');
     </script>
     <script>!function(a,b,c,d,t){var e,f=a.getElementsByTagName("head")[0];if(!a.getElementById(c)){if(e=a.createElement(b),e.id=c,e.setAttribute("data-vrlps-ucid",d),e.setAttribute("data-vrlps-version","2"), e.setAttribute("data-vrlps-template", t),e.src="https://app.viral-loops.com/popup_assets/js/vl_load_v2.min.js",window.ub){jQuery=null,$=null;var g=a.createElement(b);g.src="https://code.jquery.com/jquery-2.2.4.min.js",f.appendChild(g)}f.appendChild(e);var h=a.createElement("link");h.rel="stylesheet",h.type="text/css",h.href="https://app.viral-loops.com/static/vl-loader.css",f.appendChild(h);var i=a.createElement("div");i.id="vl-overlay",i.style.display="none";var j=a.createElement("div");j.id="vl-loader",i.appendChild(j),a.addEventListener("DOMContentLoaded",function(b){a.body.appendChild(i);for(var c=a.getElementsByClassName("vrlps-trigger"),d=0;d<c.length;d++)c[d].removeAttribute("href"),c[d].onclick=function(){a.getElementById("vl-overlay").style.display="block"};var e=a.querySelectorAll("[data-vl-widget='popupTrigger']");[].forEach.call(e,function(b){var c=a.createElement("div");c.className="vl-embedded-cta-loader",b.appendChild(c)})})}}(document,"script","vrlps-js","6QUVpsuUmWnmtWqRAPKmakq0PAE","waitlist");</script>
+    <script>
+        $(function () {
+            $(window).on('scroll', function () {
+                if ( $(window).scrollTop() > 10 ) {
+                    $('.navbar').addClass('active');
+                } else {
+                    $('.navbar').removeClass('active');
+                }
+            });
+        });
+
+    </script>
 </head>
+
+<header class="header">
+    <nav class="navbar navbar-expand-lg fixed-top py-3">
+        <div class="container"><a href="#" class="navbar-brand text-uppercase font-weight-bold">
+            <img class="header-logo-image" src="dist/images/logo_text_orange.svg" width="150px" alt="Logo">
+        </a>
+            <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
+
+            <div id="navbarSupportedContent" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+<!--                    <li class="nav-item active"><a href="#" class="nav-link text-uppercase font-weight-bold">Home <span class="sr-only">(current)</span></a></li>-->
+                    <li class="nav-item"><a href="https://itchysats.medium.com/" target="_blank" class="nav-link text-uppercase font-weight-bold">Blog</a></li>
+                    <li class="nav-item"><a href="https://t.me/joinchat/ULycH50PLV1jOTI0" target="_blank" class="nav-link text-uppercase font-weight-bold">Telegram</a></li>
+                    <li class="nav-item"><a href="https://github.com/itchysats/itchysats" target="_blank" class="nav-link text-uppercase font-weight-bold">GitHub</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
 <body class="is-boxed has-animations">
     <div class="body-wrap">
-        <header class="site-header">
-            <div class="container">
-                <div class="site-header-inner">
-                    <div class="brand header-brand">
-                        <h1 class="m-0">
-                            <a href="#">
-                                <img class="header-logo-image" src="dist/images/logo_text_bw.svg" width="150px" alt="Logo">
-                            </a>
-                        </h1>
-                    </div>
-                </div>
-            </div>
-        </header>
-
         <main>
             <section class="hero">
                 <div class="container">
@@ -55,7 +80,7 @@
                             <div class="hero-figure-box hero-figure-box-03" data-rotation="0deg"></div>
                             <div class="hero-figure-box hero-figure-box-04" data-rotation="-135deg"></div>
                             <div class="hero-figure-box hero-figure-box-05" style="background:transparent;fill:transparent;">
-                                <img src="dist/images/website_screenshot_with_logo.png" alt="itchysats"/>
+                                <img src="dist/images/website_screenshot.png" alt="itchysats"/>
                             </div>
                             <!--div class="hero-figure-box hero-figure-box-06" style="background:transparent;">
                                 <img src="dist/images/itchy_logo_600x335.png" alt="bitcoin"/>

@@ -214,6 +214,10 @@
 
 @include media( '<=medium' ) {
 
+	.body-wrap {
+		margin-top: 50px;
+	}
+
 	.hero-cta {
 		max-width: 280px;
 		margin-left: auto;
