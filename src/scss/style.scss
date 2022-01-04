@@ -138,9 +138,7 @@
 
 }
 
-/*  youtube video embed */
-
-
+/* youtube video embed */
 
 .video-container {
         position:relative;
@@ -148,6 +146,7 @@
         padding-top:30px;
         height:0;
         overflow:hidden;
+        margin-bottom: 100px;
 }
 
 .video-container iframe, .video-container object, .video-container embed {
@@ -158,3 +157,17 @@
         height:100%;
 }
 
+/* Medium Blog embed */
+
+.medium-widget-article__date,
+.medium-widget-article__author-name{
+        color: #F7931A !important;
+}
+
+.medium-widget-article__title{
+        color: #FFFFFF !important;
+}
+
+.medium-widget-article__description{
+        color: #8A94A7 !important;
+}
