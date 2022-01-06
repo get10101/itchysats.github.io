@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>itchysats</title>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
     <!--  Header Navbar based on bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
@@ -26,7 +27,6 @@
       gtag('js', new Date());
       gtag('config', 'G-MEZRMTSN57');
     </script>
-    <script>!function(a,b,c,d,t){var e,f=a.getElementsByTagName("head")[0];if(!a.getElementById(c)){if(e=a.createElement(b),e.id=c,e.setAttribute("data-vrlps-ucid",d),e.setAttribute("data-vrlps-version","2"), e.setAttribute("data-vrlps-template", t),e.src="https://app.viral-loops.com/popup_assets/js/vl_load_v2.min.js",window.ub){jQuery=null,$=null;var g=a.createElement(b);g.src="https://code.jquery.com/jquery-2.2.4.min.js",f.appendChild(g)}f.appendChild(e);var h=a.createElement("link");h.rel="stylesheet",h.type="text/css",h.href="https://app.viral-loops.com/static/vl-loader.css",f.appendChild(h);var i=a.createElement("div");i.id="vl-overlay",i.style.display="none";var j=a.createElement("div");j.id="vl-loader",i.appendChild(j),a.addEventListener("DOMContentLoaded",function(b){a.body.appendChild(i);for(var c=a.getElementsByClassName("vrlps-trigger"),d=0;d<c.length;d++)c[d].removeAttribute("href"),c[d].onclick=function(){a.getElementById("vl-overlay").style.display="block"};var e=a.querySelectorAll("[data-vl-widget='popupTrigger']");[].forEach.call(e,function(b){var c=a.createElement("div");c.className="vl-embedded-cta-loader",b.appendChild(c)})})}}(document,"script","vrlps-js","6QUVpsuUmWnmtWqRAPKmakq0PAE","waitlist");</script>
     <script>
         $(function () {
             $(window).on('scroll', function () {
@@ -37,7 +37,6 @@
                 }
             });
         });
-
     </script>
 </head>
 
@@ -70,7 +69,10 @@
                         <div class="hero-copy">
                             <h1 class="hero-title mt-0">Peer-to-peer derivatives on Bitcoin</h1>
                             <p class="hero-paragraph">Start trading CFDs on Bitcoin - trustless and  peer-to-peer! No counterparty risk, no deposits, no accounts.</p>
-                            <div class="hero-cta"><a class="button button-primary vrlps-trigger" href="#">Get mainnet access</a></div>
+                            <div class="hero-cta" style="color: #FFFFFF">
+                                <a class="button button-primary" href="https://getumbrel.com/" target="_blank">Get app on Umbrel 0.4.11</a>
+                                or <a style="color: #FFFFFF" href="https://github.com/itchysats/itchysats/releases/latest" target="_blank">download the binary</a>
+                            </div>
                         </div>
                         <div class="hero-figure anime-element">
                             <svg class="placeholder" width="528" height="396" viewBox="0 0 528 396">
@@ -170,20 +172,7 @@
 
             <section class="pricing section">
                 <div class="pricing-header text-center">
-                    <h2 class="section-title mt-0">Demo version live on Bitcoin testnet</h2>
-                    <p class="section-paragraph mb-0"></p>
-                    <div class="hero-cta"><a class="button button-primary" href="https://itchysats.medium.com/p2p-bitcoin-cfds-give-it-a-try-4db2d5804328" target="_blank">Try it yourself!</a></div>
-                </div>
-                <div class="container">
-                    <div class="video-container">
-                        <iframe width="400" height="300" src="https://www.youtube.com/embed/NiiCLtEExmg?start=13" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
-                </div>
-            </section>
-
-            <section class="pricing section">
-                <div class="pricing-header text-center">
-                    <h2 class="section-title mt-0">Latest news on our Blog</h2>
+                    <h2 class="section-title mt-0">More about ItchySats on our Blog</h2>
                 </div>
                 <div class="container-sm medium-blog-embed">
                     <div id="medium-widget"></div>
@@ -205,7 +194,7 @@
                                     <div class="pricing-table-main">
                                         <ul class="pricing-table-features list-reset text-xs">
                                             <li>
-                                                <span>Download itchysats</span>
+                                                <span>Get ItchySats</span>
                                             </li>
                                             <li>
                                                 <span>Deposit funds</span>
@@ -222,7 +211,7 @@
                                         </ul>
                                     </div>
                                     <div class="pricing-table-cta mb-8">
-                                        <a class="button button-primary button-shadow button-block vrlps-trigger" href="#">Get mainnet access</a>
+                                        <a class="button button-primary button-shadow button-block" href="https://getumbrel.com/" target="_blank">Get App on Umbrel 0.4.11</a>
                                     </div>
                                 </div>
                             </div>
