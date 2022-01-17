@@ -9,7 +9,7 @@ $(document).ready(function(){
         fetch(UMBREL_LOCAL_URL, {'mode':'no-cors'})
             .then(function () {
                 // the request worked (CORS errors on the browser side are ignored)
-                $('a[href^="https://getumbrel.com/"]').each(function() {
+                $('a[href^="https://itchysats.medium.com/itchysats-is-on-umbrel-eb079f467233"]').each(function() {
                     $(this).attr("href", "http://umbrel.local/app-store/itchysats");
                 });
             })
